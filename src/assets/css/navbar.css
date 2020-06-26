@@ -1,0 +1,18 @@
+.brand{
+  color: white !important;
+  font-size: 2rem;
+}
+
+.navbar{
+
+  width: 100%;
+}
+.nav{
+  margin-left: auto;
+}
+.navLink{
+  color: white !important;
+  font-size: 1.25rem;
+  font-weight: normal;
+  position: relative;
+}
