@@ -1,11 +1,10 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav, Container} from 'react-bootstrap';
 
 import '../assets/css/navbar.css'
 
 function NavBar() {
     return (
-        <div>
             <Navbar className="navbar" bg="dark" expand="lg">
                 <Navbar.Brand className='brand' href="/">CSI-Project</Navbar.Brand>
                 <Navbar.Toggle className="toggle" aria-controls="basic-navbar-nav"/>
@@ -17,7 +16,7 @@ function NavBar() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+
     )
 }
 
